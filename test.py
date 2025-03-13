@@ -1,7 +1,7 @@
 import socket, pickle
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(("192.168.110.91", 8888))
+client_socket.connect(("10.0.12.2", 8888))
 # data = client_socket.recv(4096)
 # data = pickle.loads(data)
 # print(repr(data))
