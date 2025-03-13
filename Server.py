@@ -6,7 +6,7 @@ m = Menu()
 receipts = []
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(("192.168.110.91",8888))
+sock.bind(("10.0.12.2",8888))
 sock.listen(1)
 
 def Client(cli:socket,address):
